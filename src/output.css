@@ -368,6 +368,26 @@
       padding-top: calc(var(--spacing) * 0);
     }
   }
+  .lg\:top-\[0px\] {
+    @media (width >= 64rem) {
+      top: 0px;
+    }
+  }
+  .lg\:top-\[20\%\] {
+    @media (width >= 64rem) {
+      top: 20%;
+    }
+  }
+  .lg\:top-\[20px\] {
+    @media (width >= 64rem) {
+      top: 20px;
+    }
+  }
+  .lg\:top-\[50\%\] {
+    @media (width >= 64rem) {
+      top: 50%;
+    }
+  }
   .lg\:top-\[50px\] {
     @media (width >= 64rem) {
       top: 50px;
@@ -376,6 +396,26 @@
   .lg\:top-\[60px\] {
     @media (width >= 64rem) {
       top: 60px;
+    }
+  }
+  .lg\:top-\[90px\] {
+    @media (width >= 64rem) {
+      top: 90px;
+    }
+  }
+  .lg\:top-\[100px\] {
+    @media (width >= 64rem) {
+      top: 100px;
+    }
+  }
+  .lg\:top-\[120px\] {
+    @media (width >= 64rem) {
+      top: 120px;
+    }
+  }
+  .lg\:top-\[200px\] {
+    @media (width >= 64rem) {
+      top: 200px;
     }
   }
   .lg\:right-\[-50\%\] {
