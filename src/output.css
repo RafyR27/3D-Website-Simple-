@@ -373,6 +373,11 @@
       top: 50px;
     }
   }
+  .lg\:top-\[60px\] {
+    @media (width >= 64rem) {
+      top: 60px;
+    }
+  }
   .lg\:right-\[-50\%\] {
     @media (width >= 64rem) {
       right: -50%;
