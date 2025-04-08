@@ -176,14 +176,14 @@
   .top-\[30px\] {
     top: 30px;
   }
-  .right-0 {
-    right: calc(var(--spacing) * 0);
+  .right-\[0\%\] {
+    right: 0%;
   }
-  .right-\[2\%\] {
-    right: 2%;
+  .right-\[7\%\] {
+    right: 7%;
   }
-  .right-\[10\%\] {
-    right: 10%;
+  .right-\[8\%\] {
+    right: 8%;
   }
   .z-1 {
     z-index: 1;
@@ -191,20 +191,8 @@
   .mx-\[30px\] {
     margin-inline: 30px;
   }
-  .mx-\[40px\] {
-    margin-inline: 40px;
-  }
   .mx-\[50px\] {
     margin-inline: 50px;
-  }
-  .mx-\[100px\] {
-    margin-inline: 100px;
-  }
-  .mx-\[320px\] {
-    margin-inline: 320px;
-  }
-  .mx-auto {
-    margin-inline: auto;
   }
   .mt-\[20px\] {
     margin-top: 20px;
@@ -215,23 +203,11 @@
   .table {
     display: table;
   }
-  .h-\[18vh\] {
-    height: 18vh;
-  }
   .h-\[80px\] {
     height: 80px;
   }
-  .h-\[100vh\] {
-    height: 100vh;
-  }
   .h-\[150vh\] {
     height: 150vh;
-  }
-  .h-\[200vh\] {
-    height: 200vh;
-  }
-  .w-\[60\%\] {
-    width: 60%;
   }
   .w-\[90\%\] {
     width: 90%;
@@ -242,14 +218,8 @@
   .border-collapse {
     border-collapse: collapse;
   }
-  .scale-\[0\.7\] {
-    scale: 0.7;
-  }
   .scale-\[0\.8\] {
     scale: 0.8;
-  }
-  .scale-\[0\.9\] {
-    scale: 0.9;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -303,17 +273,11 @@
   .py-\[25px\] {
     padding-block: 25px;
   }
-  .pt-100 {
-    padding-top: calc(var(--spacing) * 100);
-  }
-  .pt-\[100px\] {
-    padding-top: 100px;
+  .pt-\[400px\] {
+    padding-top: 400px;
   }
   .pt-\[450px\] {
     padding-top: 450px;
-  }
-  .pt-\[500px\] {
-    padding-top: 500px;
   }
   .text-\[0\.8rem\] {
     font-size: 0.8rem;
@@ -366,69 +330,14 @@
       }
     }
   }
-  .md\:top-50 {
-    @media (width >= 48rem) {
-      top: calc(var(--spacing) * 50);
-    }
-  }
-  .md\:top-\[15px\] {
-    @media (width >= 48rem) {
-      top: 15px;
-    }
-  }
-  .md\:top-\[50px\] {
-    @media (width >= 48rem) {
-      top: 50px;
-    }
-  }
-  .md\:top-\[100px\] {
-    @media (width >= 48rem) {
-      top: 100px;
-    }
-  }
   .md\:top-\[150px\] {
     @media (width >= 48rem) {
       top: 150px;
     }
   }
-  .md\:right-0 {
-    @media (width >= 48rem) {
-      right: calc(var(--spacing) * 0);
-    }
-  }
-  .md\:right-\[-20\%\] {
-    @media (width >= 48rem) {
-      right: -20%;
-    }
-  }
-  .md\:right-\[-25\%\] {
-    @media (width >= 48rem) {
-      right: -25%;
-    }
-  }
-  .md\:right-\[-30\%\] {
-    @media (width >= 48rem) {
-      right: -30%;
-    }
-  }
   .md\:right-\[-40\%\] {
     @media (width >= 48rem) {
       right: -40%;
-    }
-  }
-  .md\:right-\[-50\%\] {
-    @media (width >= 48rem) {
-      right: -50%;
-    }
-  }
-  .md\:right-\[-50\] {
-    @media (width >= 48rem) {
-      right: -50;
-    }
-  }
-  .md\:right-\[-\] {
-    @media (width >= 48rem) {
-      right: -;
     }
   }
   .md\:z-0 {
@@ -444,16 +353,6 @@
   .md\:w-\[50\%\] {
     @media (width >= 48rem) {
       width: 50%;
-    }
-  }
-  .md\:w-\[60\%\] {
-    @media (width >= 48rem) {
-      width: 60%;
-    }
-  }
-  .md\:w-\[60\] {
-    @media (width >= 48rem) {
-      width: 60;
     }
   }
   .md\:bg-transparent {
@@ -504,14 +403,6 @@
   .lg\:w-\[80\%\] {
     @media (width >= 64rem) {
       width: 80%;
-    }
-  }
-  .lg\:scale-0 {
-    @media (width >= 64rem) {
-      --tw-scale-x: 0%;
-      --tw-scale-y: 0%;
-      --tw-scale-z: 0%;
-      scale: var(--tw-scale-x) var(--tw-scale-y);
     }
   }
   .lg\:scale-none {
@@ -615,21 +506,6 @@ body {
   inherits: false;
   initial-value: solid;
 }
-@property --tw-scale-x {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-@property --tw-scale-y {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
-@property --tw-scale-z {
-  syntax: "*";
-  inherits: false;
-  initial-value: 1;
-}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -650,9 +526,6 @@ body {
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-outline-style: solid;
-      --tw-scale-x: 1;
-      --tw-scale-y: 1;
-      --tw-scale-z: 1;
     }
   }
 }
